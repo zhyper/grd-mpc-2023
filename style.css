@@ -1,0 +1,493 @@
+
+
+
+
+
+
+
+
+/* ------------------------ OTHER --------------------------------------------------------*/
+
+
+.marker {
+    background-image: url(/assets/images/qosqo_tikarinampaq-white.png);
+    /* background-size: auto; */
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 33px;
+    height: 45px;
+    padding: 0;
+}
+
+#info {
+    display: block;
+    margin: 0px auto ;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 9px;
+    text-align: center;
+    position: absolute;
+    bottom:0px;
+    color: #FFF;
+    }
+
+
+
+
+    .mapboxgl-ctrl-top-left{
+        top: 130px !important;
+    }
+    .mapboxgl-ctrl-top-right{
+        top: 130px !important;
+    }    
+
+
+    .mapboxgl-ctrl-top-left{
+        top: 200px !important;
+    }
+
+#tools-41{
+    position: absolute;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+}    
+
+/**/
+#hotel_map {
+    position: relative;
+    height  : 600px;
+    width   : 100%;
+  }
+  
+  /*---------------------------------*/
+  #layertree {
+    position        : absolute;
+    top             : 100px;
+    left            : 10px;
+    z-index         : 1500;
+    background-color: #811643cc;
+    font-size       : 11px;
+    color           : #fff;
+    padding         : 10px;
+    border-radius   : 5px;
+  }
+  
+  #layertree li>span {
+    cursor: pointer;
+  }
+  
+  #layertree label {
+    display    : block;
+    line-height: 11px;
+    padding    : 0;
+    margin     : 0;
+    font-size  : 9px;
+  }
+  
+  #layertree h5 {
+    font-size       : 15px;
+    font-weight     : 700;
+    width           : 100%;
+    /*color         : rgb(78, 2, 2);*/
+    background-color: #811643cc;
+    padding         : 2px 5px;
+    border-radius   : 5px;
+  }
+  
+  
+  /*---------------------------------*/
+  .ol-popup {
+    position        : absolute;
+    background-color: white;
+    box-shadow      : 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding         : 15px;
+    border-radius   : 10px;
+    border          : 1px solid #cccccc;
+    bottom          : 12px;
+    left            : -50px;
+    min-width       : 280px;
+    z-index         : 8000;
+    font-size       : 10px;
+    line-height     : 9px;
+  }
+  
+  .ol-popup:after,
+  .ol-popup:before {
+    top           : 100%;
+    border        : solid transparent;
+    content       : " ";
+    height        : 0;
+    width         : 0;
+    position      : absolute;
+    pointer-events: none;
+  }
+  
+  .ol-popup:after {
+    border-top-color: white;
+    border-width    : 10px;
+    left            : 48px;
+    margin-left     : -10px;
+  }
+  
+  .ol-popup:before {
+    border-top-color: #cccccc;
+    border-width    : 11px;
+    left            : 48px;
+    margin-left     : -11px;
+  }
+  
+  .ol-popup-closer {
+    text-decoration: none;
+    position       : absolute;
+    top            : 2px;
+    right          : 8px;
+  }
+  
+  .ol-popup-closer:after {
+    content: "✖";
+  }
+  
+  /**/
+  #btn-toc-map {
+    position        : absolute;
+    z-index         : 1501;
+    top             : 70px;
+    left            : 10px;
+    padding         : 2px 10px;
+    background-color: #811643;
+    color           : #fff;
+    cursor          : pointer;
+    border-radius   : 2px;
+  }
+  
+  .tocOcultar {
+    display: none;
+  
+  }
+  
+  .tocMostrar {
+    display: block;
+  }
+  
+  
+  #prueba {
+    background-color: aquamarine;
+    z-index         : 5000;
+    height          : 100px;
+    width           : 200px;
+  }
+  
+
+  
+  #info_cat_ficha_inmaterial{
+    padding: 25px 0px;
+  }
+  .titulo-item{
+    color: #ff006b;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .item{
+    padding-left: 20px;
+  }
+  .seccion-item{
+    color: #ff006b;
+    font-size: 13px;
+    text-align: end;
+    padding-bottom: 3px;
+    margin: 6px 0px;
+    border-bottom: #81164360 1px dotted;
+  }
+  .btn-01-color-gchc{
+    margin-top: 5px;
+    background-color: #811643;
+    border-color: #811643;
+  }
+
+  /**/
+.gchc-dialog {
+  color: #811643 !important;
+}
+
+.btn-zre{
+  font-size: 12px;
+
+  color: #555 !important;
+  
+  padding: 0px 0px;
+}
+.btn-zre:hover{
+  color: rgb(165, 5, 5) !important;
+  transition: .2s ease;
+}
+
+
+ul.informacion-plan-popup{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  COLLAPSE PANEL ---------------------------------------------------------------------------------------------
+*/
+
+/* CARACTERIZACION */
+
+#main-tab-carcaterizacion {
+    margin: 2px 0;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card {
+    margin-bottom: 2px;
+    border: 0;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: rgba(115, 115, 115, 1.0) !important;
+    /*color: #222;*/
+    padding: 2px;
+    font-size: 12px !important;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 12px !important;
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .card-header .btn-header-link.collapsed {
+    background: rgba(166, 166, 166, 1.0) !important;
+    color: #fff;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .collapsing {
+    /*background: #FFE472;*/
+    line-height: 20px;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .collapse {
+    border: 0;
+  }
+  
+  #main-tab-caracterizacion #faq-caracterizacion .card .collapse.show {
+    /*background: #FFE472;*/
+    line-height: 20px;
+    color: #222;
+  }
+  
+  /* PROPUESTA*/
+  
+  #main-tab-propuesta {
+    margin: 2px 0;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card {
+    margin-bottom: 2px;
+    border: 0;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    /*background: rgba(203, 21, 21, 0.9) !important;*/
+    background: rgba(115, 115, 115, 1.0) !important;
+    /*color: #222;*/
+    padding: 2px;
+    font-size: 12px !important;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 12px !important;
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .card-header .btn-header-link.collapsed {
+    /*background: rgba(203, 21, 21, 0.7) !important;*/
+    background: rgba(166, 166, 166, 1.0) !important;
+    color: #fff;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .collapsing {
+    /*background: #FFE472;*/
+    line-height: 20px;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .collapse {
+    border: 0;
+  }
+  
+  #main-tab-propuesta #faq-propuesta .card .collapse.show {
+    /*background: #FFE472;*/
+    line-height: 20px;
+    color: #222;
+  }
+  
+  
+  .card-body-mapas{
+    overflow: auto;
+    max-height: 200px;
+    padding: 2px 2px 2px 8px;
+  }
+  
+  
+  .tab-content{
+    margin-top: -12px !important;
+  }
+  
+  .nav-link-mapas{
+    padding: 1px 5px !important;
+    margin-right: 3px;
+  }
+  
+  .nav-link-mapas.active{
+    background-color: rgba(203, 21, 21, 0.9)  !important;
+  }
+  
+  hr.hr-mapas{
+      margin: 0 0 !important;
+  }
+  .td-ver-detalle-zre-web{
+  
+    color: rgb(165, 5, 5) !important;;
+  }
+  
+  .btn-zre-detalle{
+    padding: 5px 5px !important;
+    font-size: 12px !important;
+    background-color: rgba(203, 21, 21, 1.0) !important;
+  }
+
+
+
+  /********/
+
+.wrap-map{
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+
+
+#popup-view{
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+
+
+
+
+
+/*menu*/
+
+#menu-layers {
+    /*background: #fff;*/
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 0px;
+    border-radius: 3px;
+    /*width: 160px;*/
+    /*border: 1px solid rgba(0, 0, 0, 0.4);*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    }
+  
+    #menu-layers li{
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      align-items: flex-end;
+    }
+     
+    #menu-layers a {
+      font-size: 11px;
+      color: #404040;
+      display: block;
+      margin: 10px 0px 0px 0px;
+      padding: 0px 5px;
+      /* padding: 10px; */
+      text-decoration: none;
+      background-color: #fff;
+      /* border-bottom: 1px solid rgba(0, 0, 0, 0.25); */
+      /* text-align: center; */
+      box-shadow: 0 0 5px #000;
+      border-radius: 4px;
+      width: 150px;
+    }
+     
+    #menu-layers a:last-child {
+    border: none;
+    }
+     
+    #menu-layers a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+    }
+     
+    #menu-layers a.active {
+    background-color: rgb(165, 5, 5);
+    
+    color: #ffffff;
+    }
+     
+    #menu-layers a.active:hover {
+    background: rgb(165, 5, 5);
+    }
+  
+   .range-layer-opacity{
+      width: 80px;
+    }
+    /*fin menu*/
+  
+  
+    #menu-layers-x{
+      position: absolute;
+      z-index: 1;
+      top: 110px;
+      left: 10px;
+      border-radius: 3px;
+      width: 160px;
+      background-color: #0052a5;
+    }
+  
