@@ -283,7 +283,7 @@ var popup_view = document.getElementById('popup-view');
         // },
         {
           id: 'agrupaciones-urbanas-layer',
-          title: 'Aprupaciones Urbanas',
+          title: 'Agrupaciones Urbanas',
           typeVector: 'line-opacity',
           opacity: 80,
           active: 'active',
